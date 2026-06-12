@@ -8,12 +8,38 @@ header{
 }
 
 nav{
-  background-color: aliceblue;
+  background-color: rgb(52, 131, 200);
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+  display:flex;
+  flex-direction: row;
+  font-weight: 700;
+}
+.active1    ::hover{
+  color: white;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.active3{
+  display: flex;
+  width: 60%;
+  right: 30%; 
 }
 
 main{
   background-color: aquamarine;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 footer{
@@ -21,8 +47,9 @@ footer{
 }
 
 li{
-  display: block;
-  width: 15px;
+  display: flex;
+  width: 10px;
+  max-width: 100%;
 }
 
 h1{
